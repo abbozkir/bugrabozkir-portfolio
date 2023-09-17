@@ -1,0 +1,53 @@
+.hi-message {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeFont 5s infinite;
+    animation-delay: 1s;
+    font-size: 3rem;
+}
+
+@keyframes wave {
+    30%, 50% {
+        letter-spacing: 5px;
+    }
+    75%, 85% {
+        letter-spacing: 2px;
+    }
+    20%, 40%, 60% {
+        letter-spacing: normal;
+    }
+}
+
+@keyframes changeFont {
+    73%, 100% {
+        font-family: inherit;
+    }
+    76% {
+        font-family: Arial, sans-serif;
+    }
+    79% {
+        font-family: "Comic Sans MS", cursive;
+    }
+    82% {
+        font-family: "Roboto Light", serif;
+    }
+    85% {
+        font-family: "Impact", sans-serif;
+    }
+    88% {
+        font-family: "Bookman Old Style", serif;
+    }
+    91% {
+        font-family: "Urbanist", cursive;
+    }
+    94% {
+        font-family: "Palatino Linotype", serif;
+    }
+    97% {
+        font-family: "Rockwell", cursive;
+    }
+}
+
+

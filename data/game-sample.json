@@ -1,0 +1,26 @@
+[
+  {
+    "teamName": "Fire Nation",
+    "teamSize": "5",
+    "teamColor": "var(--red-500)",
+    "isCustomColor": false
+  },
+  {
+    "teamName": "Water Tribe",
+    "teamSize": "3",
+    "teamColor": "var(--blue-500)",
+    "isCustomColor": false
+  },
+  {
+    "teamName": "Earth Kingdom",
+    "teamSize": "15",
+    "teamColor": "#5f9f00",
+    "isCustomColor": true
+  },
+  {
+    "teamName": "Air Nomads",
+    "teamSize": "1",
+    "teamColor": "var(--orange-500)",
+    "isCustomColor": false
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "signals": [
+      {
+        "signalQuality": 40,
+        "towerId": 6
+      },
+      {
+        "signalQuality": 90,
+        "towerId": 12
+      },
+      {
+        "signalQuality": 60,
+        "towerId": 13
+      }
+    ],
+    "satelliteName": "Sputnik"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 80,
+        "towerId": 4
+      },
+      {
+        "signalQuality": 70,
+        "towerId": 11
+      }
+    ],
+    "satelliteName": "Vanguard"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 30,
+        "towerId": 9
+      },
+      {
+        "signalQuality": 90,
+        "towerId": 14
+      }
+    ],
+    "satelliteName": "Explorer"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 20,
+        "towerId": 5
+      }
+    ],
+    "satelliteName": "Pioneer"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 10,
+        "towerId": 1
+      },
+      {
+        "signalQuality": 70,
+        "towerId": 3
+      }
+    ],
+    "satelliteName": "Beacon"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 50,
+        "towerId": 2
+      }
+    ],
+    "satelliteName": "Luna"
+  },
+  {
+    "signals": [
+      {
+        "signalQuality": 80,
+        "towerId": 1
+      },
+      {
+        "signalQuality": 30,
+        "towerId": 7
+      }
+    ],
+    "satelliteName": "Ranger"
+  }
+]

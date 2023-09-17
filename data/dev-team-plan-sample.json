@@ -1,0 +1,25 @@
+[
+  {
+    "ticketBatch": [
+      [
+        "JIRA #99 (Amazonians)",
+        "JIRA #98 (Googlers)"
+      ],
+      [
+        "JIRA #97 (Googlers)",
+        "JIRA #96 (Microsofties)"
+      ]
+    ],
+    "estimatedTime": 15
+  },
+  {
+    "ticketBatch": [
+      [
+        "JIRA #95 (Amazonians)",
+        "JIRA #94 (Microsofties)",
+        "JIRA #93 (Microsofties)"
+      ]
+    ],
+    "estimatedTime": 10
+  }
+]

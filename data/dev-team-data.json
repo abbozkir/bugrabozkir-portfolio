@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Amazonians",
+    "tickets": [
+      {
+        "id": "100",
+        "name": "JIRA #100",
+        "estimatedTime": 2
+      },
+      {
+        "id": "101",
+        "name": "JIRA #101",
+        "estimatedTime": 5
+      },
+      {
+        "id": "102",
+        "name": "JIRA #102",
+        "estimatedTime": 3
+      }
+    ],
+    "label": "Amazonians"
+  },
+  {
+    "id": 2,
+    "name": "Googlers",
+    "tickets": [
+      {
+        "id": "200",
+        "name": "JIRA #200",
+        "estimatedTime": 4
+      },
+      {
+        "id": "201",
+        "name": "JIRA #201",
+        "estimatedTime": 5
+      }
+    ],
+    "label": "Googlers"
+  },
+  {
+    "id": 3,
+    "name": "Microsofties",
+    "tickets": [
+      {
+        "id": "300",
+        "name": "JIRA #300",
+        "estimatedTime": 5
+      },
+      {
+        "id": "301",
+        "name": "JIRA #301",
+        "estimatedTime": 3
+      },
+      {
+        "id": "302",
+        "name": "JIRA #302",
+        "estimatedTime": 4
+      },
+      {
+        "id": "304",
+        "name": "JIRA #304",
+        "estimatedTime": 2
+      }
+    ],
+    "label": "Microsofties"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "month": "January",
+    "lowestAverage": 1.2,
+    "lowestRecord": -16.3,
+    "highestAverage": 6.2,
+    "highestRecord": 14.5,
+    "notes": {}
+  },
+  {
+    "month": "February",
+    "lowestAverage": 1,
+    "lowestRecord": -19.7,
+    "highestAverage": 6.9,
+    "highestRecord": 18.6,
+    "notes": {
+      "lowestRecord": "Not that bad!"
+    }
+  },
+  {
+    "month": "March",
+    "lowestAverage": 2.8,
+    "lowestRecord": -16.7,
+    "highestAverage": 10.1,
+    "highestRecord": 24.1,
+    "notes": {}
+  },
+  {
+    "month": "April",
+    "lowestAverage": 5.2,
+    "lowestRecord": -4.7,
+    "highestAverage": 14.3,
+    "highestRecord": 28,
+    "notes": {
+      "lowestRecord": "Others don't differ this much from March."
+    }
+  },
+  {
+    "month": "May",
+    "lowestAverage": 8.6,
+    "lowestRecord": -1.1,
+    "highestAverage": 17.8,
+    "highestRecord": 31.5,
+    "notes": {}
+  },
+  {
+    "month": "June",
+    "lowestAverage": 11.3,
+    "lowestRecord": 1.7,
+    "highestAverage": 20.3,
+    "highestRecord": 33.2,
+    "notes": {}
+  },
+  {
+    "month": "July",
+    "lowestAverage": 13.4,
+    "lowestRecord": 5,
+    "highestAverage": 22.5,
+    "highestRecord": 36.4,
+    "notes": {
+      "lowestRecord": "This is really cold for July.",
+      "highestRecord": "Regular summer day for the most of the mediterranean."
+    }
+  },
+  {
+    "month": "August",
+    "lowestAverage": 13.4,
+    "lowestRecord": 5,
+    "highestAverage": 22.4,
+    "highestRecord": 34.5,
+    "notes": {}
+  },
+  {
+    "month": "September",
+    "lowestAverage": 11,
+    "lowestRecord": 2,
+    "highestAverage": 19.2,
+    "highestRecord": 31,
+    "notes": {}
+  },
+  {
+    "month": "October",
+    "lowestAverage": 7.8,
+    "lowestRecord": -3.4,
+    "highestAverage": 14.7,
+    "highestRecord": 25.6,
+    "notes": {}
+  },
+  {
+    "month": "November",
+    "lowestAverage": 4.5,
+    "lowestRecord": -8.1,
+    "highestAverage": 10,
+    "highestRecord": 18.9,
+    "notes": {}
+  },
+  {
+    "month": "December",
+    "lowestAverage": 1.9,
+    "lowestRecord": -14.8,
+    "highestAverage": 6.9,
+    "highestRecord": 15.5,
+    "notes": {}
+  }
+]

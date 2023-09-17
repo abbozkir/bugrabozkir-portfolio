@@ -1,0 +1,141 @@
+{
+  "satelliteAttributes": {
+    "Sputnik": {
+      "dimensions": 58,
+      "perigeeAltitude": 215,
+      "apogeeAltitude": 939
+    },
+    "Vanguard": {
+      "dimensions": 12.2,
+      "perigeeAltitude": 654,
+      "apogeeAltitude": 3969
+    },
+    "Explorer": {
+      "dimensions": 15.2,
+      "perigeeAltitude": 358,
+      "apogeeAltitude": 2550
+    },
+    "Pioneer": {
+      "dimensions": 12,
+      "perigeeAltitude": 123,
+      "apogeeAltitude": 456
+    },
+    "Beacon": {
+      "dimensions": 45,
+      "perigeeAltitude": 456,
+      "apogeeAltitude": 789
+    },
+    "Luna": {
+      "dimensions": 67,
+      "perigeeAltitude": 789,
+      "apogeeAltitude": 987
+    },
+    "Ranger": {
+      "dimensions": 78,
+      "perigeeAltitude": 654,
+      "apogeeAltitude": 321
+    }
+  },
+  "towerAttributes": [
+    {
+      "city": "Tokyo",
+      "latitude": 35.6897,
+      "longitude": 139.6922
+    },
+    {
+      "city": "Jakarta",
+      "latitude": -6.175,
+      "longitude": 106.8275
+    },
+    {
+      "city": "Delhi",
+      "latitude": 28.61,
+      "longitude": 77.23
+    },
+    {
+      "city": "Guangzhou",
+      "latitude": 23.13,
+      "longitude": 113.26
+    },
+    {
+      "city": "Mumbai",
+      "latitude": 19.0761,
+      "longitude": 72.8775
+    },
+    {
+      "city": "Manila",
+      "latitude": 14.5958,
+      "longitude": 120.9772
+    },
+    {
+      "city": "Shanghai",
+      "latitude": 31.1667,
+      "longitude": 121.4667
+    },
+    {
+      "city": "São Paulo",
+      "latitude": -23.55,
+      "longitude": -46.6333
+    },
+    {
+      "city": "Seoul",
+      "latitude": 37.56,
+      "longitude": 126.99
+    },
+    {
+      "city": "Mexico City",
+      "latitude": 19.4333,
+      "longitude": -99.1333
+    },
+    {
+      "city": "Cairo",
+      "latitude": 30.0444,
+      "longitude": 31.2358
+    },
+    {
+      "city": "New York",
+      "latitude": 40.6943,
+      "longitude": -73.9249
+    },
+    {
+      "city": "Dhaka",
+      "latitude": 23.7639,
+      "longitude": 90.3889
+    },
+    {
+      "city": "Beijing",
+      "latitude": 39.904,
+      "longitude": 116.4075
+    },
+    {
+      "city": "Kolkāta",
+      "latitude": 22.5675,
+      "longitude": 88.37
+    },
+    {
+      "city": "Bangkok",
+      "latitude": 13.7525,
+      "longitude": 100.4942
+    },
+    {
+      "city": "Shenzhen",
+      "latitude": 22.535,
+      "longitude": 114.054
+    },
+    {
+      "city": "Moscow",
+      "latitude": 55.7558,
+      "longitude": 37.6178
+    },
+    {
+      "city": "Buenos Aires",
+      "latitude": -34.5997,
+      "longitude": -58.3819
+    },
+    {
+      "city": "Lagos",
+      "latitude": 6.455,
+      "longitude": 3.3841
+    }
+  ]
+}
