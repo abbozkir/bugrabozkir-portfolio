@@ -6,6 +6,7 @@ import Languages from '@/components/Languages';
 import Title from '@/components/Title';
 import Education from '@/components/Education';
 import {ResumeService} from '@/service/ResumeService';
+import {Skeleton} from "primereact/skeleton";
 
 const Resume = () => {
     const [summary, setSummary] = useState('');
@@ -48,12 +49,16 @@ const Resume = () => {
                 <div className="col-12">
                     <div className="card">
                         <div className="text-700 text-2xl mb-5 p-2">
-                            {summary.split('\n').map((paragraph) => (
+                            {summary ?
+                                (summary.split('\n').map((paragraph) => (
                                 <span>
-                  {paragraph}
+                                    {paragraph}
                                     <br />
-                </span>
-                            ))}
+                                </span>
+                                ))) : (
+                                    <Skeleton className="mb-2" borderRadius="10px" height="4rem"></Skeleton>
+                                )
+                            }
                         </div>
                         <div className="flex align-items-center justify-content-between">
                             <div>

@@ -1,6 +1,7 @@
 import React from "react";
 import {Timeline} from "primereact/timeline";
 import {Card} from "primereact/card";
+import {Skeleton} from "primereact/skeleton";
 
 const Experience = (props) => {
 
@@ -50,9 +51,19 @@ const Experience = (props) => {
     return (
         <div className="card experience-timeline">
             <h3>Experience</h3>
-            <Timeline value={props.experienceEvents} align="alternate" className="customized-timeline"
-                      content={customizedContent}
-                      marker={customizedMarker} opposite={eventImage}/>
+            {
+                props.experienceEvents ? (
+                    <Timeline value={props.experienceEvents} align="alternate" className="customized-timeline"
+                              content={customizedContent}
+                              marker={customizedMarker} opposite={eventImage}/>
+                ) : (
+                    <div className="flex flex-column">
+                        <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2"></Skeleton>
+                        <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2 align-self-end"></Skeleton>
+                        <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2"></Skeleton>
+                    </div>
+                )
+            }
         </div>
     );
 }
