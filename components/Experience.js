@@ -58,9 +58,9 @@ const Experience = (props) => {
                               marker={customizedMarker} opposite={eventImage}/>
                 ) : (
                     <div className="flex flex-column">
-                        <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2"></Skeleton>
                         <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2 align-self-end"></Skeleton>
                         <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2"></Skeleton>
+                        <Skeleton width={'50%'} borderRadius="10px" height="4rem" className="mb-2 align-self-end"></Skeleton>
                     </div>
                 )
             }
