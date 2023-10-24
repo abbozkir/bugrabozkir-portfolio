@@ -10,7 +10,7 @@ import {Chip} from "primereact/chip";
 import {Card} from "primereact/card";
 import {ShowcaseService} from "@/service/ShowcaseService";
 
-const DevelopmentPlanning = (props) => {
+const DevelopmentPlanning = () => {
     const [selectedTickets, setSelectedTickets] = useState([]);
     const [selectedTicketsMap, setSelectedTicketsMap] = useState({});
     const [tickets, setTickets] = useState([]);
@@ -172,7 +172,7 @@ const DevelopmentPlanning = (props) => {
         setTeam({});
     };
 
-    const ticketBatchBodyTemplate = (rowData, row) => {
+    const ticketBatchBodyTemplate = (rowData) => {
         return (
             <div>
                 {rowData.ticketBatch.map(ticketGroup => {

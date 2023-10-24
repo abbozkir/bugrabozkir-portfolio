@@ -4,7 +4,7 @@ import React, {useContext} from 'react';
 import {useLottie} from "lottie-react";
 import {LayoutContext} from "@/layout/context/layoutcontext";
 
-const Title = (props) => {
+const Title = () => {
     const {layoutConfig} = useContext(LayoutContext);
 
     const style = {

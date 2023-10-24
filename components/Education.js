@@ -2,13 +2,13 @@ import React from "react";
 import CustomCard from "@/components/CustomCard";
 import {Skeleton} from "primereact/skeleton";
 
-const Education = (props) => {
+const Education = ({educationData}) => {
     return (
         <div className="card">
             <h3>Education</h3>
             {
-                props.educationData ? (
-                    props.educationData && props.educationData.map(event => (
+                educationData ? (
+                    educationData && educationData.map(event => (
                         <CustomCard title={event.title} subTitle={event.date} content={event.summary} icon="pi pi-book"/>
                     ))
                 ) : (

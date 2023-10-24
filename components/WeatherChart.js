@@ -6,7 +6,7 @@ import {InputTextarea} from "primereact/inputtextarea";
 import {Toast} from "primereact/toast";
 import {ShowcaseService} from "@/service/ShowcaseService";
 
-const WeatherChart = (props) => {
+const WeatherChart = () => {
     const toast = useRef();
     const chartRef = useRef();
     const [chartLabels, setChartLabels] = useState([]);

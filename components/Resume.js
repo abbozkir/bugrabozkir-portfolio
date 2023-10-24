@@ -17,12 +17,13 @@ const Resume = () => {
 
     useEffect(() => {
         ResumeService.fetchResumeData()
-            .then((resumeData) => {
-                setSummary(resumeData.summary);
-                setExperienceEvents(resumeData.experienceEvents);
-                setEducationData(resumeData.educationData);
-                setSkillSetData(resumeData.skillSetData);
-                setLanguagesData(resumeData.languagesData);
+            .then(resumeData => {
+                const {summary, experienceEvents, educationData, skillSetData, languagesData} = resumeData;
+                setSummary(summary);
+                setExperienceEvents(experienceEvents);
+                setEducationData(educationData);
+                setSkillSetData(skillSetData);
+                setLanguagesData(languagesData);
             })
             .catch(error => {
                 console.error(error);

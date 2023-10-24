@@ -4,7 +4,7 @@ import {InputText} from "primereact/inputtext";
 import {Button} from "primereact/button";
 import {ColorPicker} from "primereact/colorpicker";
 
-export const TeamDetail = (props) => {
+export const TeamDetail = ({item, deletable, onUpdate, onDelete}) => {
     const [predefinedColors, setPredefinedColors] = useState([]);
     const defaultColorPickerColor = '#909090';
 
@@ -37,35 +37,35 @@ export const TeamDetail = (props) => {
         <div className="grid">
             <div className="col-12 md:col-4">
                 <InputText className="inputfield w-full"
-                           value={props.item.teamName ? props.item.teamName : ""}
+                           value={item.teamName ? item.teamName : ""}
                            onChange={(e) =>
-                               props.onUpdate("teamName", e.target.value)} placeholder={"Team Name"}
+                               onUpdate("teamName", e.target.value)} placeholder={"Team Name"}
                 />
             </div>
             <div className="col-12 md:col-3">
                 <div className="p-inputgroup">
                     <InputText className="inputfield w-full" keyfilter="pint"
-                               value={props.item.teamSize ? props.item.teamSize : ""}
+                               value={item.teamSize ? item.teamSize : ""}
                                onChange={(e) =>
-                                   props.onUpdate("teamSize", e.target.value)} placeholder={"Team Size"}
+                                   onUpdate("teamSize", e.target.value)} placeholder={"Team Size"}
                     />
                     <span className="p-inputgroup-addon">ppl</span>
                 </div>
             </div>
             <div
-                className={`col-${props.item.isCustomTeamColor ? 11 : 12} md:col-${props.item.isCustomTeamColor ? 3 : 4}`}>
+                className={`col-${item.isCustomTeamColor ? 11 : 12} md:col-${item.isCustomTeamColor ? 3 : 4}`}>
                 <Dropdown
-                    dropdownIcon={props.item.isCustomTeamColor ? "pi pi-arrow-right" : ""}
+                    dropdownIcon={item.isCustomTeamColor ? "pi pi-arrow-right" : ""}
                     className="inputfield w-full"
                     options={predefinedColors}
                     placeholder={"Team Color"}
                     onChange={(e) => {
                         if (e.value.type === 'custom') {
-                            props.onUpdate("isCustomTeamColor", true)
-                            props.onUpdate("teamColor", defaultColorPickerColor)
+                            onUpdate("isCustomTeamColor", true)
+                            onUpdate("teamColor", defaultColorPickerColor)
                         } else {
-                            props.onUpdate("isCustomTeamColor", false)
-                            props.onUpdate("teamColor", e.value.content)
+                            onUpdate("isCustomTeamColor", false)
+                            onUpdate("teamColor", e.value.content)
                         }
                     }}
                     itemTemplate={(rowData) => {
@@ -81,12 +81,12 @@ export const TeamDetail = (props) => {
                         }}>&nbsp;</div>
                     }}
                     valueTemplate={() => {
-                        if (!props.item.isCustomTeamColor && !props.item.teamColor || props.item.isCustomTeamColor) {
+                        if (!item.isCustomTeamColor && !item.teamColor || item.isCustomTeamColor) {
                             return <div><p>{"Team Color"}</p></div>
                         }
 
                         return <div style={{
-                            background: props.item.teamColor,
+                            background: item.teamColor,
                             borderRadius: '3px',
                             color: 'black',
                             textAlign: "left"
@@ -95,20 +95,20 @@ export const TeamDetail = (props) => {
                 />
             </div>
             {
-                props.item.isCustomTeamColor && (
+                item.isCustomTeamColor && (
                     <div className="col-1 md:col-1 flex justify-content-center">
-                        <ColorPicker id="colorPicker" hidden={!props.item.isCustomTeamColor}
-                                     value={props.item.teamColor.charAt(0) === '#' ? props.item.teamColor : defaultColorPickerColor}
+                        <ColorPicker id="colorPicker" hidden={!item.isCustomTeamColor}
+                                     value={item.teamColor.charAt(0) === '#' ? item.teamColor : defaultColorPickerColor}
                                      style={{marginTop: '.3rem'}} onChange={(e) => {
-                            props.onUpdate("teamColor", `#${e.value}`)
+                            onUpdate("teamColor", `#${e.value}`)
                         }}></ColorPicker>
                     </div>
                 )
             }
             <div className="col-12 md:col-1 flex justify-content-center">
                 <Button className="p-button-danger p-button-icon-only" icon="pi pi-trash" onClick={() => {
-                    props.onDelete()
-                }} disabled={!props.deletable}/>
+                    onDelete()
+                }} disabled={!deletable}/>
             </div>
         </div>
     );

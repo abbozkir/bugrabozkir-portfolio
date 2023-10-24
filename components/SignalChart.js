@@ -5,7 +5,7 @@ import {InputText} from 'primereact/inputtext';
 import {Knob} from 'primereact/knob';
 import {ShowcaseService} from '@/service/ShowcaseService';
 
-const SignalChart = (props) => {
+const SignalChart = () => {
     const chartRef = useRef();
     const chartOptions = {
         maintainAspectRatio: false,

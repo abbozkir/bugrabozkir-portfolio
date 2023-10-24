@@ -3,18 +3,18 @@ import {Sidebar} from "primereact/sidebar";
 import {Card} from "primereact/card";
 import {ShowcaseService} from "@/service/ShowcaseService";
 
-const Code = (props) => {
+const Code = ({componentName, visible, onHide}) => {
     const [information, setInformation] = useState({});
 
     useEffect(() => {
-        ShowcaseService.fetchComponentInformation(props.componentName)
+        ShowcaseService.fetchComponentInformation(componentName)
             .then(data => {
                 setInformation(data)
             })
     }, [])
 
     return (
-        <Sidebar visible={props.visible} onHide={props.onHide} position="bottom" style={{height: '90%', width: '60%'}}>
+        <Sidebar visible={visible} onHide={onHide} position="bottom" style={{height: '90%', width: '60%'}}>
             <Card className="card p-0" title="Need">
                 <p>{information && information.need}</p>
             </Card>

@@ -1,5 +1,4 @@
-const CustomCard = (props) => {
-    const {title, subTitle, icon, content} = props;
+const CustomCard = ({title, subTitle, icon, content}) => {
 
     return (
         <div className="card">

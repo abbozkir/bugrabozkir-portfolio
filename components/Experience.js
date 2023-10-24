@@ -3,7 +3,7 @@ import {Timeline} from "primereact/timeline";
 import {Card} from "primereact/card";
 import {Skeleton} from "primereact/skeleton";
 
-const Experience = (props) => {
+const Experience = ({experienceEvents}) => {
 
     const locationFooter = (location) => (
         <div className="flex justify-content-center text-500">
@@ -52,8 +52,8 @@ const Experience = (props) => {
         <div className="card experience-timeline">
             <h3>Experience</h3>
             {
-                props.experienceEvents ? (
-                    <Timeline value={props.experienceEvents} align="alternate" className="customized-timeline"
+                experienceEvents ? (
+                    <Timeline value={experienceEvents} align="alternate" className="customized-timeline"
                               content={customizedContent}
                               marker={customizedMarker} opposite={eventImage}/>
                 ) : (

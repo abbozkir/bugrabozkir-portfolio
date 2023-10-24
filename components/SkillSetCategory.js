@@ -1,7 +1,6 @@
 import {Chip} from 'primereact/chip';
 
-const SkillSetCategory = (props) => {
-    const {title, skills} = props;
+const SkillSetCategory = ({title, skills}) => {
 
     return (
         <div className="card mb-3">

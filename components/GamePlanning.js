@@ -7,7 +7,7 @@ import {Dialog} from "primereact/dialog";
 import {TeamDetail} from "@/components/TeamDetail";
 import {ShowcaseService} from "@/service/ShowcaseService";
 
-const GamePlanning = (props) => {
+const GamePlanning = () => {
     const [previousTeamsDialog, setPreviousTeamsDialog] = useState(false);
     const [teams, setTeams] = useState([{}]);
     const [playingTeams, setPlayingTeams] = useState([]);
