@@ -33,7 +33,7 @@ const Resume = () => {
     return (
         <div>
             <div className="grid">
-                <div className="col-12 p-6">
+                <div className="col-12 p-6 greeting">
                     <div className="grid grid-nogutter">
                         <div className="col-12 md:col-7 flex align-items-center">
                             <Title />

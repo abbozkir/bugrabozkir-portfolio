@@ -151,8 +151,7 @@ const GamePlanning = () => {
                                 className="p-button-danger font-bold"
                                 icon="pi pi-trash"
                                 iconPos="right"
-                                onClick={() => {
-                                }}
+                                onClick={() => setTeams([{}])}
                             />
                         </div>
                         <div className="col-12 md:col-6">

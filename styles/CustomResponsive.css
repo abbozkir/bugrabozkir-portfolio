@@ -7,4 +7,8 @@
         clip-path: none !important;
         width: 100vw !important;
     }
+
+    .greeting {
+        padding-top: 0 !important;
+    }
 }
