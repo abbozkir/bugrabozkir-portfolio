@@ -15,6 +15,9 @@ const Experience = ({experienceEvents}) => {
         return (
             <Card title={item.status} subTitle={item.date} footer={locationFooter(item.location)}
                   className="surface-section border-round-2xl">
+                <div className={"inner-logo hidden align-items-center mb-3"}>
+                    {eventImage(item, "flex justify-content-center")}
+                </div>
                 <p className="text-left">
                     {item.summary && item.summary.split('\n').map((paragraph) => (
                         <span>
@@ -27,9 +30,9 @@ const Experience = ({experienceEvents}) => {
         );
     };
 
-    const eventImage = (item) => {
+    const eventImage = (item, alignment) => {
         return (
-            <div className="timeline-image">
+            <div className={`timeline-image ${alignment}`}>
                 {item.image && <img src={`/images/${item.image}`}
                                     onError={(e) =>
                                         (e.target.src = 'https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png')}
