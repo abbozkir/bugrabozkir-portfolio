@@ -41,7 +41,7 @@ const Resume = () => {
                         <div className="col-12 md:col-5 flex justify-content-center md:justify-content-start">
                             <img
                                 src="/images/picture.jpg"
-                                className="w-26rem md:w-auto max-h-30rem"
+                                className="w-26rem md:w-auto max-h-30rem picture"
                                 style={{ clipPath: 'polygon(0 0, 92% 0%, 100% 100%, 8% 100%)' }}
                             />
                         </div>
@@ -61,7 +61,7 @@ const Resume = () => {
                                 )
                             }
                         </div>
-                        <div className="flex align-items-center justify-content-between">
+                        <div className="flex align-items-center justify-content-between flex-wrap">
                             <div>
                                 <Button
                                     label="abbozkir"

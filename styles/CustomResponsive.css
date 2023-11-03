@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    *p, *span {
+        font-size: 1rem;
+    }
+
+    .picture {
+        clip-path: none !important;
+        width: 100vw !important;
+    }
+}
