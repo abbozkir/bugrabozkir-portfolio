@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import Experience from '@/components/Experience';
 import SkillSet from '@/components/SkillSet';
 import Languages from '@/components/Languages';
-import Title from '@/components/Title';
+import Greeting from '@/components/Greeting';
 import Education from '@/components/Education';
 import {ResumeService} from '@/service/ResumeService';
 import {Skeleton} from "primereact/skeleton";
@@ -17,8 +17,7 @@ const Resume = () => {
 
     useEffect(() => {
         ResumeService.fetchResumeData()
-            .then(resumeData => {
-                const {summary, experienceEvents, educationData, skillSetData, languagesData} = resumeData;
+            .then(({summary, experienceEvents, educationData, skillSetData, languagesData}) => {
                 setSummary(summary);
                 setExperienceEvents(experienceEvents);
                 setEducationData(educationData);
@@ -36,10 +35,11 @@ const Resume = () => {
                 <div className="col-12 p-6 greeting">
                     <div className="grid grid-nogutter">
                         <div className="col-12 md:col-7 flex align-items-center">
-                            <Title />
+                            <Greeting />
                         </div>
                         <div className="col-12 md:col-5 flex justify-content-center md:justify-content-start">
                             <img
+                                alt="Picture"
                                 src="/images/picture.jpg"
                                 className="w-26rem md:w-auto max-h-30rem picture"
                                 style={{ clipPath: 'polygon(0 0, 92% 0%, 100% 100%, 8% 100%)' }}
@@ -51,8 +51,8 @@ const Resume = () => {
                     <div className="card">
                         <div className="text-700 text-2xl mb-5 p-2">
                             {summary ?
-                                (summary.split('\n').map((paragraph) => (
-                                <span>
+                                (summary.split('\n').map((paragraph, index) => (
+                                <span key={index}>
                                     {paragraph}
                                     <br />
                                 </span>

@@ -8,8 +8,8 @@ const SkillSet = ({languagesData}) => {
             <h3>Languages</h3>
             {
                 languagesData ? (
-                    languagesData && languagesData.map(language => (
-                        <CustomCard title={language.title} subTitle={language.level} icon="pi pi-comment"/>
+                    languagesData && languagesData.map(({title, level}, index) => (
+                        <CustomCard key={index} title={title} subTitle={level} icon="pi pi-comment"/>
                     ))
                 ) : (
                     <Skeleton className="mb-2" borderRadius="10px" height="4rem"></Skeleton>

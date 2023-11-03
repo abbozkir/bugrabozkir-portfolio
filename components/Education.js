@@ -8,8 +8,8 @@ const Education = ({educationData}) => {
             <h3>Education</h3>
             {
                 educationData ? (
-                    educationData && educationData.map(event => (
-                        <CustomCard title={event.title} subTitle={event.date} content={event.summary} icon="pi pi-book"/>
+                    educationData && educationData.map(({title, date, summary}, index) => (
+                        <CustomCard key={index} title={title} subTitle={date} content={summary} icon="pi pi-book"/>
                     ))
                 ) : (
                     <Skeleton className="mb-2" borderRadius="10px" height="4rem"></Skeleton>

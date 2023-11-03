@@ -9,8 +9,8 @@ const SkillSet = ({skillSetData}) => {
             {
                 skillSetData ? (
                     skillSetData &&
-                    skillSetData.map((skillSetCategory) => (
-                        <SkillSetCategory title={skillSetCategory.title} skills={skillSetCategory.skills}/>
+                    skillSetData.map((skillSetCategory, index) => (
+                        <SkillSetCategory key={index} {...skillSetCategory}/>
                     ))
                 ) : (
                     <Skeleton className="mb-2" borderRadius="10px" height="4rem"></Skeleton>

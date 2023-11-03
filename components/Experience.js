@@ -11,16 +11,16 @@ const Experience = ({experienceEvents}) => {
         </div>
     )
 
-    const customizedContent = (item) => {
+    const customizedContent = ({title, date, location, summary, image}) => {
         return (
-            <Card title={item.status} subTitle={item.date} footer={locationFooter(item.location)}
+            <Card title={title} subTitle={date} footer={locationFooter(location)}
                   className="surface-section border-round-2xl">
                 <div className={"inner-logo hidden align-items-center mb-3"}>
-                    {eventImage(item, "flex justify-content-center")}
+                    {eventImage({image, title}, "flex justify-content-center")}
                 </div>
                 <p className="text-left">
-                    {item.summary && item.summary.split('\n').map((paragraph) => (
-                        <span>
+                    {summary && summary.split('\n').map((paragraph, index) => (
+                        <span key={index}>
                             {paragraph}
                             <br/>
                         </span>
@@ -30,13 +30,11 @@ const Experience = ({experienceEvents}) => {
         );
     };
 
-    const eventImage = (item, alignment) => {
+    const eventImage = ({image, title}, alignment) => {
         return (
             <div className={`timeline-image ${alignment}`}>
-                {item.image && <img src={`/images/${item.image}`}
-                                    onError={(e) =>
-                                        (e.target.src = 'https://www.primefaces.org/wp-content/uploads/2020/05/placeholder.png')}
-                                    alt={item.name} width={'70%'}
+                {image && <img src={`/images/${image}`}
+                                    alt={title} width={'70%'}
                                     className="shadow-2 pl-4 pr-4 surface-section border-round-3xl"/>}
             </div>
         );

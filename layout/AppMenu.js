@@ -25,7 +25,7 @@ const AppMenu = () => {
             <div className="flex flex-column h-full justify-content-between">
                 <ul className="layout-menu">
                     {model.map((item, i) => (
-                        <AppMenuitem item={item} root={true} index={i} key={item.label}/>
+                        <AppMenuitem item={item} root={true} index={i} key={i}/>
                     ))}
                 </ul>
                 <div className="mt-2 text-center text-xs text-400 text-color-secondary">

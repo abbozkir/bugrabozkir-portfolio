@@ -3,10 +3,11 @@ import {Chip} from 'primereact/chip';
 const SkillSetCategory = ({title, skills}) => {
 
     return (
-        <div className="card mb-3">
+        <div className="card mb-3" >
             <h5>{title}</h5>
-            {skills.map((skill) => (
+            {skills.map((skill, index) => (
                 <Chip
+                    key={index}
                     className='my-1 mr-1 bg-primary text-primary text-lg'
                     label={skill}
                 />

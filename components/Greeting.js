@@ -4,7 +4,7 @@ import React, {useContext} from 'react';
 import {useLottie} from "lottie-react";
 import {LayoutContext} from "@/layout/context/layoutcontext";
 
-const Title = () => {
+const Greeting = () => {
     const {layoutConfig} = useContext(LayoutContext);
 
     const style = {
@@ -29,4 +29,4 @@ const Title = () => {
     );
 }
 
-export default Title;
+export default Greeting;

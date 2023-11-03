@@ -2,28 +2,28 @@
   "summary": "A seasoned Software Engineer with almost 7 years of industry experience. I've had the privilege of working in both back-end and front-end positions. During my journey, I've contributed to diverse projects in the defense industry in Turkey, and spent the last 2 years in the Netherlands, where I furthered my expertise at VodafoneZiggo as a backend engineer.\n\nNow, I'm thrilled to dive into frontend development more. Proficient in React, Redux, Axios, Next.js, and more. I'm eager to leverage my fast-learning capabilities and adaptability to improve myself even further.\n\nI've designed this portfolio website to showcase my skill set. Explore my collection of React components, showcasing frontend logic. Each page provides detailed insights into encountered challenges and the implemented solutions. I have recreated these components as accurately as possible, employing fictional scenarios.\n\nFeel free to reach out for any inquiries or collaborations!",
   "experienceEvents": [
     {
-      "status": "VodafoneZiggo | TMC",
+      "title": "VodafoneZiggo | TMC",
       "date": "February 2022 - Current",
       "location": "Maastricht/Eindhoven, The Netherlands",
       "image": "logo-tmc-vfz.png",
       "summary": "During my time at VodafoneZiggo, I actively contributed to the development of a NaaS solution as a back-end engineer, leveraging Java 8, Maven, and Amdocs' NEO platform. I independently learned and utilized the Robot Framework for API testing, ensuring the solution's reliability and seamless integration with various environments.\n\nWorking in an agile environment, I collaborated closely with teams, embracing effective communication and problem-solving to deliver successful outcomes. Using the technologies like AWS, Kubernetes, Drool rules, and Postman, I gained valuable experience in cloud infrastructure and rule-based logic. Collaborating effectively with teams, I delivered reliable results and developed a passion for frontend development."
     },
     {
-      "status": "HAVELSAN",
+      "title": "HAVELSAN",
       "date": "February 2017 - January 2022",
       "location": "Ankara, Turkey",
       "image": "logo-havelsan.png",
       "summary": "At HAVELSAN, a defense industry company, I had the privilege of contributing to diverse projects, showcasing my versatility and expertise as a fullstack engineer.\n\nIn the Big Data and AI Department, I played a key role in developing microservices for a business intelligence software utilized by the Ministry of Education. I was responsible for the development of two microservices, Workspace, and Schedule services, delivering crucial capabilities. Using technologies like MongoDB for data storage, RabbitMQ for event handling, and Swagger for code documentation, we ensured the reliability and scalability of the solution.\n\nAdditionally, I excelled as a frontend developer for the submarine sensor tracking and validating project for The Turkish NAVY, contributing my skills and dedication for the last 2 years. This project allowed me to enhance my proficiency in frontend technologies, including React, Redux, Axios, D3, and more, and offered valuable insights into creating intuitive and visually appealing user interfaces.\n\nIn the R&D Department, I contributed to the development of RESTful endpoints for the Technology Management System, an internal tool used for command control solutions in the military field. We followed a monolith structure, employing the Spring Framework, Maven, Hibernate, MySQL, and Tomcat for back-end development. On the front-end, we utilized an in-house JavaScript (ES6) framework."
     },
     {
-      "status": "HAVELSAN (Internship)",
+      "title": "HAVELSAN (Internship)",
       "date": "August 2015 - September 2015",
       "location": "Ankara, Turkey",
       "image": "logo-havelsan.png",
       "summary": "During my graduation internship at HAVELSAN, I made valuable contributions to the development of a military joint capability area management software. As part of the project's inception, I played a vital role in crafting essential endpoints using Java, Spring Boot, and JPA, contributing to the software's foundation.\n\nMoreover, I honed my skills in front-end development, creating prototype screens for the software using AngularJS and Bootstrap. This hands-on experience allowed me to explore the world of modern web development and gain expertise in these technologies."
     },
     {
-      "status": "TÜBİTAK (Internship)",
+      "title": "TÜBİTAK (Internship)",
       "date": "June 2013 - August 2013",
       "location": "Ankara, Turkey",
       "image": "logo-tubitak.png",
