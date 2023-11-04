@@ -46,62 +46,229 @@
     {
       "title": "Development Languages / Technologies",
       "skills": [
-        "Java",
-        "Spring Boot",
-        "Maven",
-        "JavaScript (ES6)",
-        "React",
-        "Redux",
-        "Axios",
-        "Chart.js",
-        "Next.js",
-        "Robot Framework",
-        "Drool Rules",
-        "RabbitMQ",
-        "MongoDB",
-        "MySQL",
-        "Hibernate",
-        "JUnit"
+        {
+          "title": "Java",
+          "level": "high"
+        },
+        {
+          "title":  "JavaScript (ES6)",
+          "level": "high"
+        },
+        {
+          "title":  "React",
+          "level": "high"
+        },
+        {
+          "title":  "Spring Boot",
+          "level": "high"
+        },
+        {
+          "title":  "Redux",
+          "level": "high"
+        },
+        {
+          "title":  "Maven",
+          "level": "high"
+        },
+        {
+          "title":  "Axios",
+          "level": "high"
+        },
+        {
+          "title":  "Next.js",
+          "level": "medium"
+        },
+        {
+          "title":  "CSS",
+          "level": "medium"
+        },
+        {
+          "title":  "Chart.js",
+          "level": "medium"
+        },
+        {
+          "title":  "Robot Framework",
+          "level": "medium"
+        },
+        {
+          "title":  "Drool Rules",
+          "level": "medium"
+        },
+        {
+          "title":  "RabbitMQ",
+          "level": "medium"
+        },
+        {
+          "title":  "MongoDB",
+          "level": "medium"
+        },
+        {
+          "title":  "MySQL",
+          "level": "medium"
+        },
+        {
+          "title":  "Quartz",
+          "level": "medium"
+        },
+        {
+          "title":  "JUnit",
+          "level": "medium"
+        },
+        {
+          "title":  "JEST",
+          "level": "medium"
+        },
+        {
+          "title":  "Node.js",
+          "level": "low"
+        },
+        {
+          "title":  "Typescript",
+          "level": "low"
+        },
+        {
+          "title":  "Hibernate",
+          "level": "low"
+        },
+        {
+          "title":  "PostgreSQL",
+          "level": "low"
+        }
       ]
     },
     {
       "title": "Know-How",
       "skills": [
-        "Agile Methodology",
-        "Fullstack Development",
-        "Microservices",
-        "API Testing",
-        "RESTful Endpoints",
-        "Web Services",
-        "Single Page App",
-        "Cloud Bus",
-        "Cloud Stream",
-        "Charting"
+        {
+          "title": "Fullstack Development",
+          "level": "high"
+        },
+        {
+          "title": "Microservices",
+          "level": "high"
+        },
+        {
+          "title": "RESTful Endpoints",
+          "level": "high"
+        },
+        {
+          "title": "Web Services",
+          "level": "high"
+        },
+        {
+          "title": "Single Page App",
+          "level": "high"
+        },
+        {
+          "title": "CRUD",
+          "level": "high"
+        },
+        {
+          "title": "Agile Methodology",
+          "level": "high"
+        },
+        {
+          "title": "SOLID",
+          "level": "high"
+        },
+        {
+          "title": "API Testing",
+          "level": "medium"
+        },
+        {
+          "title": "Unit Tests",
+          "level": "medium"
+        },
+        {
+          "title": "Charting",
+          "level": "medium"
+        },
+        {
+          "title": "DOM Manipulation",
+          "level": "low"
+        },
+        {
+          "title": "Cloud Bus",
+          "level": "low"
+        },
+        {
+          "title": "Cloud Stream",
+          "level": "low"
+        }
       ]
     },
     {
       "title": "Equipment / Tools",
       "skills": [
-        "AWS-EC2",
-        "IntelliJ Idea",
-        "IntelliJ WebStorm",
-        "Postman",
-        "Swagger",
-        "SonarQube",
-        "Kubernetes",
-        "Docker",
-        "JMeter",
-        "Linux",
-        "Windows"
+        {
+          "title": "IntelliJ Idea",
+          "level": "high"
+        },
+        {
+          "title": "IntelliJ WebStorm",
+          "level": "high"
+        },
+        {
+          "title": "Postman",
+          "level": "high"
+        },
+        {
+          "title": "Swagger",
+          "level": "high"
+        },
+        {
+          "title": "SonarQube",
+          "level": "medium"
+        },
+        {
+          "title": "Linux",
+          "level": "medium"
+        },
+        {
+          "title": "Kubernetes",
+          "level": "medium"
+        },
+        {
+          "title": "Docker",
+          "level": "medium"
+        },
+        {
+          "title": "VSCode",
+          "level": "low"
+        },
+        {
+          "title": "JMeter",
+          "level": "low"
+        },
+        {
+          "title": "AWS",
+          "level": "low"
+        }
       ]
     },
     {
       "title": "Collaboration Tools",
       "skills": [
-        "JIRA",
-        "Bitbucket",
-        "Confluence",
-        "Bamboo"
+        {
+          "title": "JIRA",
+          "level": "high"
+        },
+        {
+          "title": "GitLab",
+          "level": "high"
+        },
+        {
+          "title": "Bitbucket",
+          "level": "high"
+        },
+        {
+          "title": "Confluence",
+          "level": "high"
+        },
+        {
+          "title": "Bamboo",
+          "level": "medium"
+        }
       ]
     }
   ],
