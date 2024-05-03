@@ -2,10 +2,10 @@
   "summary": "A seasoned Software Engineer with more than 7 years of industry experience. I've had the privilege of working in both back-end and front-end positions. During my journey, I've contributed to diverse projects in the defense industry in Turkey, and spent the last 2 years in the Netherlands, where I furthered my expertise at VodafoneZiggo as a backend engineer.\n\nI've designed this portfolio website to showcase my skill set; proficient in React, Redux, Axios, Next.js, and more. Explore my collection of React components, showcasing front-end logic. Each page provides detailed insights into encountered challenges and the implemented solutions. I have recreated these components as accurately as possible, employing fictional scenarios.\n\nFeel free to reach out for any inquiries or collaborations!",
   "experienceEvents": [
     {
-      "title": "VodafoneZiggo | TMC",
+      "title": "VodafoneZiggo",
       "date": "February 2022 - Current",
-      "location": "Maastricht/Eindhoven, The Netherlands",
-      "image": "logo-tmc-vfz.png",
+      "location": "Maastricht, The Netherlands",
+      "image": "logo-vodafoneziggo.png",
       "summary": "During my time at VodafoneZiggo, I actively contributed to the development of a NaaS solution as a back-end engineer, leveraging Java 8, Maven, and Amdocs' NEO platform. I independently learned and utilized the Robot Framework for API testing, ensuring the solution's reliability and seamless integration with various environments.\n\nWorking in an agile environment, I collaborated closely with teams, embracing effective communication and problem-solving to deliver successful outcomes. Using technologies like AWS, Kubernetes, Drool rules, and Postman, I gained valuable experience in cloud infrastructure and rule-based logic. Collaborating effectively with teams, I delivered reliable results and developed a passion for frontend development."
     },
     {
